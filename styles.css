@@ -1,0 +1,52 @@
+.logo img {
+  height: 80px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  min-width: 350px;
+}
+
+.logo {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.all-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user-img {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+/* .user-img img {
+  border-radius: 20%;
+} */
+
+.user-img span {
+  font-size: 20px;
+}
+
+.user-post {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
